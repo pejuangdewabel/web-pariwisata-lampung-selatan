@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background-color: #fff;
+    font-family: 'Noto Sans JP', sans-serif; 
+    color: #000;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: royalblue !important;
+    img{
+        max-height: 85px;
+    }
+}
+.btn-login{
+    font-weight: 700;
+
+    &:hover{
+        background-color: royalblue;
+        border-color: royalblue;
+    }
+}
+
+header{
+    img{
+        height: 400px;       
+    }
+
+    h5{
+        font-size: 50px;
+        font-weight: 700;        
+    }
+}
+
+// Wisata Popular
+.section-popular{
+    .section-popular-heading{
+        h2{
+            font-weight: 400;
+            font-size: 24px;
+        }
+        p{
+            font-weight: 100;
+            font-size: 16px;
+        }
+    }   
+}
+
+.section-popular-content{
+    .section-popular-wisata{
+        .card-wisata{
+            min-height: 380px;
+            background-color: #000;
+            color: #fff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+
+            .wisata-name{
+                font-weight: 800;
+                font-size: 18px;
+                color:#fff;
+            }
+
+            .wisata-button{
+                .btn-wisata-details{
+                    background-color: royalblue;
+                    color: #fff;
+
+                    &:hover{
+                        background-color:orangered;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+    }  
+}
+
+.logo-tentang{
+    width: 150px;
+    height: 200px;
+}
+
+.nama-title-card{
+    h1{
+        font-size: 26px;
+        font-weight: 600;
+    }
+}
+
+.card-header{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text-isi{
+    font-weight: 300;
+    font-size: 14px;
+    word-spacing: 10px;
+}
+
+.btn-kategori{
+    background-color: rgb(6, 153, 141);
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+
+    &:hover{
+        background-color: rgb(226, 149, 5);
+        color: white;
+        font-weight: 900;
+    }
+}
+
+.section-details-header{
+    min-height: 310px;
+    background: #d7dbe6;
+    margin-top: -200px;
+}
+
+.section-details-content{
+    margin-top: -110px;
+    min-height: 100vh;
+    .breadcrumb{
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item{
+        &.active{
+            font-weight: bold;
+            color: #020861;
+        }
+    }
+
+    .card-details{
+        padding: 30px;
+        border-radius: 11px;
+
+        h1{
+            font-size: 26px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+        
+        p{
+            font-size: 18px;
+            color: #747171;
+        }
+    }
+
+    
+}
+
+footer{
+    background-color: rgb(71, 3, 3);
+    color: #fff !important;
+    ul{
+        li{
+            p{
+                color: #fff !important;
+            }
+        }
+    }
+}
